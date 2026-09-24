@@ -5,7 +5,7 @@ st.set_page_config(page_title="Car Price Prediction", layout="centered")
 
 # Point this to your FastAPI server
 # For local dev use localhost, for production use the deployed URL
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://car-price-predict-fastapi.onrender.com/predict" or "http://127.0.0.1:8000/predict"
 
 st.title("Car Price Prediction")
 st.caption(
