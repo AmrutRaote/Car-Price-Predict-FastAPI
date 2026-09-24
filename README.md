@@ -4,6 +4,12 @@ A REST API built with FastAPI that predicts the selling price of used cars based
 
 A Streamlit frontend is also included for easy interaction.
 
+
+## Live Demo
+
+- **Frontend (Streamlit):** https://car-price-predict-fastapi-crog2dcrkgbkybbg8uyehl.streamlit.app/
+- **Backend (FastAPI):** https://car-price-predict-fastapi.onrender.com/predict
+
 ## Dataset
 
 The model is trained on the [CarDekho dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho) (`cardekho_data (1).csv`) which contains 301 records with the following columns:
